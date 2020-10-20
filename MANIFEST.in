@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include yubiko *.css
+recursive-include yubiko *.csv
+recursive-include yubiko *.html
+recursive-include yubiko *.ico
+recursive-include yubiko *.js
+recursive-include yubiko *.json
+recursive-include yubiko *.md
+recursive-include yubiko *.png
+recursive-include yubiko *.py
+recursive-include yubiko *.svg
+recursive-include yubiko *.txt
+recursive-exclude yubiko *.pyc
